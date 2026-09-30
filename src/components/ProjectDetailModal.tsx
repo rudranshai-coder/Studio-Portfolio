@@ -1089,6 +1089,11 @@ export const ProjectDetailModal: React.FC<ProjectDetailModalProps> = ({
           !project.reelUrl.includes('PASTE_REEL_URL'));
 
       setMediaViewMode(hasVid ? 'video' : 'gallery');
+
+      return () => {
+        window.dispatchEvent(new CustomEvent('portfolio-modal-close'));
+        window.dispatchEvent(new CustomEvent('portfolio-audio-stop', { detail: { id: `modal-${project.id}` } }));
+      };
     }
   }, [project]);
 
@@ -1304,6 +1309,10 @@ export const ProjectDetailModal: React.FC<ProjectDetailModalProps> = ({
     if (!nextMuted && project) {
       window.dispatchEvent(
         new CustomEvent('portfolio-audio-play', { detail: { id: `modal-${project.id}` } })
+      );
+    } else if (project) {
+      window.dispatchEvent(
+        new CustomEvent('portfolio-audio-stop', { detail: { id: `modal-${project.id}` } })
       );
     }
   };

@@ -88,6 +88,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
       videoRef.current.pause();
       setIsManualPlaying(false);
       setIsPlayingPreview(false);
+      if (!isCardMuted) {
+        window.dispatchEvent(
+          new CustomEvent('portfolio-audio-stop', { detail: { id: project.id } })
+        );
+      }
     } else {
       videoRef.current.play().catch(() => {});
       setIsManualPlaying(true);
@@ -106,6 +111,10 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
         // Dispatch lock so other background players mute immediately
         window.dispatchEvent(
           new CustomEvent('portfolio-audio-play', { detail: { id: project.id } })
+        );
+      } else {
+        window.dispatchEvent(
+          new CustomEvent('portfolio-audio-stop', { detail: { id: project.id } })
         );
       }
     }

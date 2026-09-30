@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="bgGrad_1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B2E1E" />
+      <stop offset="40%" stop-color="#2D472D" />
+      <stop offset="70%" stop-color="#4E3B2B" />
+      <stop offset="100%" stop-color="#261A13" />
+    </linearGradient>
+    <radialGradient id="sunGlow_1" cx="35%" cy="20%" r="65%">
+      <stop offset="0%" stop-color="#FFF8E1" stop-opacity="0.95" />
+      <stop offset="35%" stop-color="#FFD54F" stop-opacity="0.45" />
+      <stop offset="70%" stop-color="#FF7043" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="sareePink_1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF1493" />
+      <stop offset="30%" stop-color="#E91E63" />
+      <stop offset="65%" stop-color="#C2185B" />
+      <stop offset="100%" stop-color="#880E4F" />
+    </linearGradient>
+    <linearGradient id="goldZari_1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9C4" />
+      <stop offset="35%" stop-color="#FDD835" />
+      <stop offset="70%" stop-color="#C69214" />
+      <stop offset="100%" stop-color="#8C6207" />
+    </linearGradient>
+    <pattern id="zariPattern_1" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M10 0 L20 10 L10 20 L0 10 Z" fill="none" stroke="#FDD835" stroke-width="1.2" stroke-opacity="0.65" />
+      <circle cx="10" cy="10" r="2.5" fill="#FFF9C4" fill-opacity="0.8" />
+    </pattern>
+    <filter id="goldGlow_1">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="800" height="1000" fill="url(#bgGrad_1)" />
+  <rect width="800" height="1000" fill="url(#sunGlow_1)" />
+
+  <!-- Background Architecture -->
+  
+        <g opacity="0.45">
+            <!-- Royal Heritage Palace Pavilion in Background -->
+            <path d="M120,380 L120,240 Q170,180 220,240 L220,380 Z" fill="#D7CCC8" />
+            <path d="M170,180 L170,120 Q170,105 170,90" stroke="#DFB15B" stroke-width="3" />
+            <circle cx="170" cy="85" r="6" fill="#DFB15B" />
+            <path d="M580,390 L580,250 Q630,190 680,250 L680,390 Z" fill="#D7CCC8" opacity="0.6" />
+        </g>
+        
+
+  <!-- Lush Garden Foliage & White Jasmine Shrubs -->
+  <g opacity="0.8">
+    <path d="M0,720 Q160,540 230,760 Q120,930 0,1000 Z" fill="#1B4332" />
+    <path d="M800,690 Q640,510 560,740 Q710,930 800,1000 Z" fill="#2D6A4F" />
+    <!-- White Jasmine Flowers Scattered -->
+    <g fill="#FFFFFF">
+      <circle cx="80" cy="620" r="7" />
+      <circle cx="110" cy="580" r="8" />
+      <circle cx="140" cy="650" r="6" />
+      <circle cx="680" cy="610" r="8" />
+      <circle cx="640" cy="570" r="7" />
+      <circle cx="730" cy="660" r="8" />
+      <circle cx="600" cy="640" r="6" />
+    </g>
+  </g>
+
+  <!-- Central Model in Royal Magenta Silk Saree -->
+  <g id="model_1">
+    <!-- Silk Saree Pleats & Flared Draping -->
+    <path d="M300,470 Q240,700 230,940 L570,940 Q540,700 480,470 Z" fill="url(#sareePink_1)" filter="drop-shadow(0px 18px 30px rgba(0,0,0,0.65))" />
+    
+    <!-- Heavy Gold Zari Pallu with Diamond Weave -->
+    <path d="M385,450 L485,460 L540,940 L445,940 Z" fill="url(#goldZari_1)" />
+    <path d="M385,450 L485,460 L540,940 L445,940 Z" fill="url(#zariPattern_1)" />
+
+    <!-- Broad Golden Zari Bottom Border -->
+    <rect x="230" y="885" width="340" height="55" fill="url(#goldZari_1)" />
+    <rect x="230" y="885" width="340" height="55" fill="url(#zariPattern_1)" />
+
+    <!-- Silk Blouse -->
+    <path d="M320,335 L470,335 L480,480 L310,480 Z" fill="url(#sareePink_1)" />
+    <!-- Blouse Gold Sleeve Borders -->
+    <rect x="300" y="375" width="28" height="65" rx="6" fill="url(#goldZari_1)" />
+    <rect x="460" y="375" width="28" height="65" rx="6" fill="url(#goldZari_1)" />
+
+    <!-- 22K Gold Choker Necklace -->
+    <path d="M360,335 Q395,370 430,335" fill="none" stroke="url(#goldZari_1)" stroke-width="12" stroke-linecap="round" filter="url(#goldGlow_1)" />
+
+    <!-- Model Portrait / Graceful Facial Features -->
+    <ellipse cx="395" cy="245" rx="55" ry="68" fill="#E8B590" />
+    <!-- Radiant Hair with White Jasmine Veni / Gajra -->
+    <path d="M330,245 C330,160 460,160 460,245 C460,320 440,350 425,360 C380,310 350,320 330,245 Z" fill="#1C120C" />
+    <!-- Jasmine Flowers Woven into Hair -->
+    <path d="M340,215 Q365,175 425,185" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-dasharray="7 4" filter="drop-shadow(0px 2px 5px rgba(0,0,0,0.6))" />
+
+    <!-- Specific Visual Pose Elements -->
+    
+    <!-- Wicker Basket with White Jasmine Flowers -->
+    <g transform="translate(280, 475)">
+      <ellipse cx="65" cy="30" rx="50" ry="24" fill="#8D5B28" stroke="#5D3A1A" stroke-width="2" />
+      <path d="M20,30 Q65,-25 110,30" fill="none" stroke="#6D431B" stroke-width="7" />
+      <g fill="#FFFFFF">
+        <circle cx="45" cy="22" r="8" />
+        <circle cx="65" cy="16" r="9" />
+        <circle cx="85" cy="24" r="8" />
+        <circle cx="55" cy="30" r="7" fill="#FFF9C4" />
+        <circle cx="75" cy="30" r="7" fill="#FFFFFF" />
+      </g>
+    </g>
+    <!-- Left Hand Holding Fresh Jasmine Bloom -->
+    <circle cx="270" cy="245" r="10" fill="#E8B590" />
+    <circle cx="265" cy="240" r="6" fill="#FFFFFF" />
+    
+  </g>
+
+  <!-- Ornate Vintage Golden Frame -->
+  <rect x="16" y="16" width="768" height="968" rx="4" fill="none" stroke="url(#goldZari_1)" stroke-width="3.5" />
+  <rect x="24" y="24" width="752" height="952" rx="2" fill="none" stroke="url(#goldZari_1)" stroke-width="1.2" stroke-opacity="0.75" />
+
+  <!-- Corner Filigree Flourishes -->
+  <g stroke="url(#goldZari_1)" stroke-width="2.2" fill="none">
+    <path d="M24,75 Q50,50 75,24 M24,52 Q45,45 52,24 M36,36 L58,58" />
+    <path d="M776,75 Q750,50 725,24 M776,52 Q755,45 748,24 M764,36 L742,58" />
+    <path d="M24,925 Q50,950 75,976 M24,948 Q45,955 52,976 M36,964 L58,942" />
+    <path d="M776,925 Q750,950 725,976 M776,948 Q755,955 748,976 M764,964 L742,942" />
+  </g>
+
+  <!-- Top Right Gold Numbered Medallion -->
+  <g transform="translate(710, 68)">
+    <circle cx="0" cy="0" r="38" fill="url(#goldZari_1)" filter="drop-shadow(0px 4px 10px rgba(0,0,0,0.65))" />
+    <circle cx="0" cy="0" r="34" fill="none" stroke="#1A110B" stroke-width="1.8" />
+    <text x="0" y="13" font-family="'Playfair Display', 'Cinzel', 'Georgia', serif" font-size="38" font-weight="bold" fill="#1A110B" text-anchor="middle">1</text>
+  </g>
+
+  <!-- Bottom Center Emblem 'Designed by - @rgcreation711' -->
+  <g transform="translate(400, 942)">
+    <path d="M-145,-26 L145,-26 L160,-5 L145,16 L-145,16 L-160,-5 Z" fill="#080A0F" stroke="url(#goldZari_1)" stroke-width="2" filter="drop-shadow(0px 6px 14px rgba(0,0,0,0.75))" />
+    <circle cx="-168" cy="-5" r="3.5" fill="url(#goldZari_1)" />
+    <circle cx="168" cy="-5" r="3.5" fill="url(#goldZari_1)" />
+    <text x="0" y="-8" font-family="'Playfair Display', 'Cinzel', 'Georgia', serif" font-size="12.5" fill="#E8B590" text-anchor="middle" letter-spacing="1">Designed by -</text>
+    <text x="0" y="9" font-family="'Space Grotesk', 'Montserrat', sans-serif" font-size="13.5" font-weight="bold" fill="#FFF9C4" text-anchor="middle" letter-spacing="1.5">@rgcreation711</text>
+  </g>
+</svg>

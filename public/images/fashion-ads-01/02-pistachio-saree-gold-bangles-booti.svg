@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <linearGradient id="sareeGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4EBC7"/>
+      <stop offset="40%" stop-color="#B8DC9F"/>
+      <stop offset="100%" stop-color="#93C47D"/>
+    </linearGradient>
+    <linearGradient id="zariGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0A0"/>
+      <stop offset="30%" stop-color="#E5C158"/>
+      <stop offset="60%" stop-color="#B88A18"/>
+      <stop offset="100%" stop-color="#F5D76E"/>
+    </linearGradient>
+    <linearGradient id="skinGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2D1B8"/>
+      <stop offset="60%" stop-color="#DEB092"/>
+      <stop offset="100%" stop-color="#C79574"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background: Wrought Iron Gate Soft Bokeh -->
+  <rect width="1080" height="1920" fill="#3D454A"/>
+  <g stroke="#1F2326" stroke-width="24" opacity="0.6">
+    <line x1="200" y1="0" x2="200" y2="1920"/>
+    <line x1="450" y1="0" x2="450" y2="1920"/>
+    <line x1="700" y1="0" x2="700" y2="1920"/>
+    <line x1="950" y1="0" x2="950" y2="1920"/>
+  </g>
+
+  <!-- Macro Saree Pleats Filling Frame -->
+  <path d="M 0 300 Q 400 200 1080 350 L 1080 1920 L 0 1920 Z" fill="url(#sareeGrad2)"/>
+  <!-- Fabric Waves & Shading -->
+  <path d="M 250 400 Q 300 1100 280 1920" stroke="#7BA865" stroke-width="12" fill="none" opacity="0.7"/>
+  <path d="M 450 380 Q 500 1100 480 1920" stroke="#7BA865" stroke-width="14" fill="none" opacity="0.7"/>
+  <path d="M 680 410 Q 720 1100 700 1920" stroke="#7BA865" stroke-width="16" fill="none" opacity="0.7"/>
+  <path d="M 880 430 Q 930 1100 900 1920" stroke="#7BA865" stroke-width="14" fill="none" opacity="0.7"/>
+
+  <!-- Intricate Embroidered Lotus Booti on Pleats -->
+  <!-- Booti 1 -->
+  <g transform="translate(320, 700) scale(1.6)">
+    <path d="M 0 0 C -20 -30 20 -30 0 0 C 30 -20 20 20 0 0 C -30 -20 -20 20 0 0 Z" fill="#E86C78"/>
+    <path d="M -10 -15 C -25 -40 0 -40 -10 -15 Z" fill="#FAA0A8"/>
+    <path d="M 10 -15 C 25 -40 0 -40 10 -15 Z" fill="#FAA0A8"/>
+    <path d="M 0 0 L 0 45" stroke="#4D7C36" stroke-width="5"/>
+    <path d="M 0 25 Q -15 15 -20 30" stroke="#4D7C36" stroke-width="4" fill="none"/>
+    <path d="M 0 35 Q 15 25 20 40" stroke="#4D7C36" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- Booti 2 -->
+  <g transform="translate(800, 950) scale(1.8)">
+    <path d="M 0 0 C -20 -30 20 -30 0 0 C 30 -20 20 20 0 0 C -30 -20 -20 20 0 0 Z" fill="#E86C78"/>
+    <path d="M -10 -15 C -25 -40 0 -40 -10 -15 Z" fill="#FAA0A8"/>
+    <path d="M 10 -15 C 25 -40 0 -40 10 -15 Z" fill="#FAA0A8"/>
+    <path d="M 0 0 L 0 45" stroke="#4D7C36" stroke-width="5"/>
+    <path d="M 0 25 Q -15 15 -20 30" stroke="#4D7C36" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- Booti 3 -->
+  <g transform="translate(420, 1400) scale(2.0)">
+    <path d="M 0 0 C -20 -30 20 -30 0 0 C 30 -20 20 20 0 0 C -30 -20 -20 20 0 0 Z" fill="#E86C78"/>
+    <path d="M 0 0 L 0 45" stroke="#4D7C36" stroke-width="5"/>
+  </g>
+
+  <!-- Diagonal Gold Zari Jacquard Border -->
+  <path d="M 0 1600 L 1080 1350 L 1080 1550 L 0 1800 Z" fill="url(#zariGrad2)"/>
+  <!-- Zari Geometric Floral Weave Pattern -->
+  <g stroke="#9E7314" stroke-width="3" fill="none">
+    <line x1="0" y1="1620" x2="1080" y2="1370"/>
+    <line x1="0" y1="1780" x2="1080" y2="1530"/>
+    <path d="M 100 1675 L 150 1635 L 200 1675 L 150 1715 Z"/>
+    <path d="M 300 1625 L 350 1585 L 400 1625 L 350 1665 Z"/>
+    <path d="M 500 1575 L 550 1535 L 600 1575 L 550 1615 Z"/>
+    <path d="M 700 1525 L 750 1485 L 800 1525 L 750 1565 Z"/>
+    <path d="M 900 1475 L 950 1435 L 1000 1475 L 950 1515 Z"/>
+  </g>
+
+  <!-- Model's Hand & Wrist Resting Elegantly Across Drape -->
+  <g id="hand-and-jewelry">
+    <!-- Forearm -->
+    <path d="M 350 100 Q 420 500 520 850 L 640 820 Q 520 450 440 100 Z" fill="url(#skinGrad2)"/>
+    <!-- Wrist & Palm -->
+    <path d="M 520 850 Q 560 1000 620 1150 L 550 1200 Q 480 1020 480 870 Z" fill="url(#skinGrad2)"/>
+    <!-- Graceful Fingers -->
+    <!-- Thumb -->
+    <path d="M 500 980 Q 450 1040 460 1100 Q 480 1110 510 1060 Z" fill="url(#skinGrad2)"/>
+    <!-- Index finger -->
+    <path d="M 550 1160 Q 570 1240 590 1290 Q 610 1290 600 1230 L 580 1150 Z" fill="url(#skinGrad2)"/>
+    <!-- Middle finger with gold ring -->
+    <path d="M 580 1160 Q 610 1270 630 1340 Q 650 1335 640 1260 L 610 1150 Z" fill="url(#skinGrad2)"/>
+    <!-- Ring on finger -->
+    <ellipse cx="615" cy="1250" rx="16" ry="8" fill="url(#zariGrad2)" transform="rotate(45 615 1250)"/>
+    <!-- Ring finger -->
+    <path d="M 610 1140 Q 645 1230 670 1300 Q 690 1290 670 1220 L 630 1130 Z" fill="url(#skinGrad2)"/>
+    <!-- Pinky finger -->
+    <path d="M 630 1110 Q 660 1180 690 1240 Q 710 1230 680 1170 L 640 1100 Z" fill="url(#skinGrad2)"/>
+
+    <!-- Pair of Carved 22K Royal Gold Bangles (Kadas) on Wrist -->
+    <!-- Bangle 1 -->
+    <g transform="translate(470, 780) rotate(28)">
+      <ellipse cx="60" cy="20" rx="85" ry="34" fill="none" stroke="url(#zariGrad2)" stroke-width="26"/>
+      <ellipse cx="60" cy="20" rx="85" ry="34" fill="none" stroke="#FFEAA7" stroke-width="6"/>
+      <!-- Filigree notches -->
+      <circle cx="0" cy="20" r="7" fill="#8C6510"/>
+      <circle cx="40" cy="35" r="7" fill="#8C6510"/>
+      <circle cx="80" cy="35" r="7" fill="#8C6510"/>
+      <circle cx="120" cy="20" r="7" fill="#8C6510"/>
+    </g>
+
+    <!-- Bangle 2 -->
+    <g transform="translate(490, 840) rotate(28)">
+      <ellipse cx="60" cy="20" rx="85" ry="34" fill="none" stroke="url(#zariGrad2)" stroke-width="26"/>
+      <ellipse cx="60" cy="20" rx="85" ry="34" fill="none" stroke="#FFEAA7" stroke-width="6"/>
+      <circle cx="0" cy="20" r="7" fill="#8C6510"/>
+      <circle cx="40" cy="35" r="7" fill="#8C6510"/>
+      <circle cx="80" cy="35" r="7" fill="#8C6510"/>
+      <circle cx="120" cy="20" r="7" fill="#8C6510"/>
+    </g>
+  </g>
+
+  <!-- High-Fashion Branding Badge -->
+  <g transform="translate(60, 80)">
+    <rect width="320" height="44" rx="22" fill="rgba(8,10,16,0.85)" stroke="rgba(255,255,255,0.15)"/>
+    <circle cx="24" cy="22" r="6" fill="#D4AF37"/>
+    <text x="42" y="27" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" letter-spacing="1.5">ACT 02 • 22K GOLD BANGLES</text>
+  </g>
+
+  <!-- Editorial Details -->
+  <g transform="translate(60, 1780)">
+    <text font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" letter-spacing="2">HANDCRAFTED GOLD FILIGREE</text>
+    <text y="35" font-family="'IBM Plex Mono', monospace" font-size="16" font-weight="500" fill="#FFE680" letter-spacing="1.5">22K ANTIQUE KADA &amp; BOOTI PLEATS • @rgcreation711</text>
+  </g>
+</svg>

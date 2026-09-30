@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <linearGradient id="sunsetSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4A5C68"/>
+      <stop offset="30%" stop-color="#9C8B7B"/>
+      <stop offset="70%" stop-color="#E8C39E"/>
+      <stop offset="100%" stop-color="#FFF0D0"/>
+    </linearGradient>
+    <linearGradient id="benchStone" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6B6458"/>
+      <stop offset="50%" stop-color="#8C8476"/>
+      <stop offset="100%" stop-color="#585246"/>
+    </linearGradient>
+    <linearGradient id="sunbeamGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 235, 160, 0.6)"/>
+      <stop offset="50%" stop-color="rgba(255, 200, 100, 0.2)"/>
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sunset Sky & Estate Background -->
+  <rect width="1080" height="1920" fill="url(#sunsetSky)"/>
+  
+  <!-- Estate Mansion & Turrets in Background -->
+  <path d="M 400 350 L 600 200 L 800 350 L 1080 350 L 1080 900 L 300 900 Z" fill="#585247" opacity="0.75"/>
+  <rect x="520" y="380" width="40" height="70" rx="20" fill="#3D372E"/>
+  <rect x="640" y="380" width="40" height="70" rx="20" fill="#3D372E"/>
+  <rect x="760" y="380" width="40" height="70" rx="20" fill="#3D372E"/>
+
+  <!-- Ornate Stone Bench with Scrollwork -->
+  <rect x="150" y="850" width="850" height="600" rx="20" fill="url(#benchStone)"/>
+  <rect x="100" y="1050" width="950" height="90" rx="15" fill="#4B453A"/>
+  <!-- Bench Legs & Carvings -->
+  <path d="M 200 1140 L 230 1600 L 320 1600 L 290 1140 Z" fill="#38332A"/>
+  <path d="M 850 1140 L 880 1600 L 970 1600 L 940 1140 Z" fill="#38332A"/>
+  
+  <!-- Stone Floor & Garden Flowers -->
+  <rect x="0" y="1450" width="1080" height="470" fill="#48443B"/>
+
+  <!-- Seated Model in Pistachio Saree Holding White Blossom -->
+  <g id="seated-model">
+    <!-- Head & Serene Profile Holding Blossom to Nose -->
+    <ellipse cx="600" cy="580" rx="60" ry="75" fill="#E8C3A8"/>
+    <!-- Hair bun with flowers -->
+    <ellipse cx="655" cy="590" rx="42" ry="52" fill="#201915"/>
+    <circle cx="670" cy="560" r="12" fill="#FFFFFF"/> <!-- Jasmine in hair -->
+    <circle cx="680" cy="585" r="10" fill="#FFFFFF"/>
+    
+    <!-- Closed serene eyes & soft smile -->
+    <path d="M 560 580 Q 575 585 590 580" stroke="#5E3B27" stroke-width="3" fill="none"/>
+    <path d="M 565 615 Q 580 625 595 615" stroke="#B85C66" stroke-width="4" fill="none"/>
+
+    <!-- Hand Holding White Flower up to Face -->
+    <path d="M 520 620 Q 510 700 480 780" stroke="#DEB092" stroke-width="26" fill="none" stroke-linecap="round"/>
+    <ellipse cx="505" cy="740" rx="12" ry="22" fill="#D4AF37" transform="rotate(30 505 740)"/>
+    <!-- Fresh White Flower -->
+    <g transform="translate(515, 600)">
+      <path d="M 0 0 C -15 -30 15 -30 0 0 Z" fill="#FFFFFF"/>
+      <path d="M -10 -5 C -30 -20 0 -35 -10 -5 Z" fill="#FFFFFF"/>
+      <path d="M 10 -5 C 30 -20 0 -35 10 -5 Z" fill="#FFFFFF"/>
+      <circle cx="0" cy="-10" r="4" fill="#FFEAA7"/>
+      <path d="M 0 0 L -10 40" stroke="#5A8844" stroke-width="4"/>
+    </g>
+
+    <!-- Torso & Blouse -->
+    <path d="M 530 650 L 680 650 L 710 880 L 490 880 Z" fill="#9BC785"/>
+    <!-- Saree Drape Spreading Elegantly Across the Bench -->
+    <path d="M 480 850 C 440 980 200 1180 180 1550 L 950 1550 C 920 1200 760 980 700 850 Z" fill="#B2D89D"/>
+
+    <!-- Flowing Saree Pleats with Lotus Embroidery -->
+    <path d="M 350 950 Q 320 1250 280 1550" stroke="#7BA865" stroke-width="12" fill="none"/>
+    <path d="M 500 950 Q 480 1250 450 1550" stroke="#7BA865" stroke-width="12" fill="none"/>
+    <path d="M 680 950 Q 680 1250 670 1550" stroke="#7BA865" stroke-width="12" fill="none"/>
+    
+    <!-- Lotus Motifs on Seated Drape -->
+    <g fill="#E06C75">
+      <path d="M 320 1200 C 310 1180 330 1180 320 1200 C 335 1190 330 1210 320 1200 C 305 1190 310 1210 320 1200 Z"/>
+      <path d="M 550 1280 C 540 1260 560 1260 550 1280 C 565 1270 560 1290 550 1280 C 535 1270 540 1290 550 1280 Z"/>
+    </g>
+
+    <!-- Broad Gold Zari Border Cascading to the Floor -->
+    <rect x="180" y="1470" width="770" height="80" fill="#D4AF37"/>
+    <!-- Latkan Tassels -->
+    <g stroke="#64994E" stroke-width="5" fill="#88C46E">
+      <line x1="250" y1="1550" x2="250" y2="1610"/><circle cx="250" cy="1615" r="8"/>
+      <line x1="380" y1="1550" x2="380" y2="1610"/><circle cx="380" cy="1615" r="8"/>
+      <line x1="510" y1="1550" x2="510" y2="1610"/><circle cx="510" cy="1615" r="8"/>
+      <line x1="640" y1="1550" x2="640" y2="1610"/><circle cx="640" cy="1615" r="8"/>
+      <line x1="770" y1="1550" x2="770" y2="1610"/><circle cx="770" cy="1615" r="8"/>
+    </g>
+  </g>
+
+  <!-- Golden Hour Sunbeam Flares -->
+  <polygon points="0,0 400,0 750,1920 100,1920" fill="url(#sunbeamGlow)"/>
+
+  <!-- High-Fashion Branding Badge -->
+  <g transform="translate(60, 80)">
+    <rect width="330" height="44" rx="22" fill="rgba(8,10,16,0.85)" stroke="rgba(255,255,255,0.15)"/>
+    <circle cx="24" cy="22" r="6" fill="#FFA502"/>
+    <text x="42" y="27" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" letter-spacing="1.5">ACT 04 • GOLDEN HOUR BENCH</text>
+  </g>
+
+  <!-- Editorial Details -->
+  <g transform="translate(60, 1780)">
+    <text font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" letter-spacing="2">SERENE COURTYARD STILLNESS</text>
+    <text y="35" font-family="'IBM Plex Mono', monospace" font-size="16" font-weight="500" fill="#FFE680" letter-spacing="1.5">HERITAGE PALACE ESTATE • @rgcreation711</text>
+  </g>
+</svg>

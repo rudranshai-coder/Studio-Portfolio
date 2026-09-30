@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A8BCC8"/>
+      <stop offset="40%" stop-color="#C5D5DE"/>
+      <stop offset="100%" stop-color="#E2EBEF"/>
+    </linearGradient>
+    <linearGradient id="sareeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C8E2B8"/>
+      <stop offset="50%" stop-color="#B2D89D"/>
+      <stop offset="100%" stop-color="#9BC785"/>
+    </linearGradient>
+    <linearGradient id="zariGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE680"/>
+      <stop offset="35%" stop-color="#D4AF37"/>
+      <stop offset="70%" stop-color="#AA8010"/>
+      <stop offset="100%" stop-color="#E8C84A"/>
+    </linearGradient>
+    <linearGradient id="stoneGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9C9588"/>
+      <stop offset="50%" stop-color="#B8B2A6"/>
+      <stop offset="100%" stop-color="#8E8779"/>
+    </linearGradient>
+    <linearGradient id="sunGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,245,210,0.4)"/>
+      <stop offset="100%" stop-color="rgba(255,220,150,0)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky & Estate Backdrop -->
+  <rect width="1080" height="1920" fill="url(#skyGrad)"/>
+  
+  <!-- English Manor / Palace Estate in Background -->
+  <path d="M 600 500 L 750 350 L 900 500 L 980 500 L 980 1100 L 600 1100 Z" fill="#8C867B" opacity="0.6"/>
+  <!-- Windows & Turrets on Manor -->
+  <rect x="660" y="540" width="40" height="70" rx="20" fill="#585249" opacity="0.8"/>
+  <rect x="760" y="540" width="40" height="70" rx="20" fill="#585249" opacity="0.8"/>
+  <rect x="860" y="540" width="40" height="70" rx="20" fill="#585249" opacity="0.8"/>
+  <rect x="660" y="660" width="40" height="60" fill="#4B453D" opacity="0.8"/>
+  <rect x="760" y="660" width="40" height="60" fill="#4B453D" opacity="0.8"/>
+  <rect x="860" y="660" width="40" height="60" fill="#4B453D" opacity="0.8"/>
+
+  <!-- Stone Pillar Left & Gate Frame -->
+  <rect x="0" y="100" width="220" height="1820" fill="url(#stoneGrad)"/>
+  <rect x="180" y="60" width="60" height="1860" fill="#756E63"/>
+  <!-- Stone moulding capitals -->
+  <path d="M -10 180 L 250 180 L 230 240 L 0 240 Z" fill="#5F594F"/>
+  <path d="M -10 320 L 250 320 L 230 360 L 0 360 Z" fill="#5F594F"/>
+  
+  <!-- Garden Lawn & Stone Paver Ground -->
+  <rect x="0" y="1400" width="1080" height="520" fill="#878378"/>
+  <!-- Stone paver lines -->
+  <line x1="0" y1="1500" x2="1080" y2="1500" stroke="#686358" stroke-width="4"/>
+  <line x1="0" y1="1650" x2="1080" y2="1650" stroke="#686358" stroke-width="5"/>
+  <line x1="0" y1="1800" x2="1080" y2="1800" stroke="#686358" stroke-width="6"/>
+
+  <!-- Ornate Black Wrought Iron Gate -->
+  <g stroke="#1A1C20" stroke-width="12" fill="none">
+    <line x1="220" y1="100" x2="220" y2="1750"/>
+    <line x1="300" y1="120" x2="300" y2="1750"/>
+    <line x1="380" y1="140" x2="380" y2="1750"/>
+    <line x1="460" y1="160" x2="460" y2="1750"/>
+  </g>
+  <!-- Gate Scrollwork & Crest -->
+  <g stroke="#C5A059" stroke-width="5" fill="#202226">
+    <circle cx="340" cy="500" r="85" fill="#1C1E22" stroke="url(#zariGrad)" stroke-width="6"/>
+    <path d="M 310 470 Q 340 440 370 470 Q 340 550 310 470 Z" fill="url(#zariGrad)"/>
+    <circle cx="340" cy="500" r="45" fill="none" stroke="url(#zariGrad)" stroke-width="3"/>
+  </g>
+
+  <!-- Model Figure: Elegant Stance in Pistachio Green Saree -->
+  <!-- Skin: Warm Radiant Complexion -->
+  <g id="model">
+    <!-- Neck & Face -->
+    <path d="M 490 380 Q 520 440 540 440 Q 560 440 580 380 Z" fill="#DDB294"/>
+    <ellipse cx="535" cy="350" rx="65" ry="85" fill="#E8C3A8"/>
+    <!-- Elegant hair bun -->
+    <ellipse cx="585" cy="360" rx="40" ry="50" fill="#1F1815"/>
+    <path d="M 480 320 Q 535 270 590 320 Q 570 380 480 360 Z" fill="#251D19"/>
+    
+    <!-- Delicate Gold Pendant & Chain -->
+    <path d="M 495 385 Q 535 440 575 385" fill="none" stroke="url(#zariGrad)" stroke-width="3.5"/>
+    <polygon points="535,445 542,455 535,465 528,455" fill="url(#zariGrad)"/>
+
+    <!-- Hand on Gate (Left Hand) -->
+    <path d="M 320 580 Q 350 590 400 680" fill="none" stroke="#DDB294" stroke-width="34" stroke-linecap="round"/>
+    <!-- Gold Kada on Wrist -->
+    <ellipse cx="330" cy="595" rx="14" ry="24" fill="url(#zariGrad)" transform="rotate(-15 330 595)"/>
+    <ellipse cx="345" cy="610" rx="14" ry="24" fill="url(#zariGrad)" transform="rotate(-15 345 610)"/>
+
+    <!-- Blouse: Pastel Pistachio with Zari Sleeve Border -->
+    <path d="M 460 430 L 610 430 L 630 650 L 440 650 Z" fill="#9BC785"/>
+    <rect x="580" y="500" width="45" height="150" fill="url(#zariGrad)" transform="rotate(15 580 500)"/>
+
+    <!-- Saree Drape Body (Pleats & Pallu Flow) -->
+    <path d="M 430 620 C 420 850 370 1250 360 1780 L 820 1780 C 810 1250 780 750 630 620 Z" fill="url(#sareeGrad)"/>
+    
+    <!-- Saree Pleats Shading & Texture -->
+    <path d="M 480 750 C 470 1100 450 1450 440 1780" stroke="#7BA865" stroke-width="6" fill="none"/>
+    <path d="M 540 750 C 530 1100 520 1450 510 1780" stroke="#7BA865" stroke-width="6" fill="none"/>
+    <path d="M 600 750 C 590 1100 580 1450 570 1780" stroke="#7BA865" stroke-width="6" fill="none"/>
+
+    <!-- Gold Zari Border on Pleat Base -->
+    <rect x="360" y="1710" width="460" height="70" fill="url(#zariGrad)"/>
+    
+    <!-- Embroidered Booti Motifs on Body -->
+    <g fill="#E06C75">
+      <!-- Lotus booti 1 -->
+      <path d="M 450 900 C 440 880 460 880 450 900 C 465 890 460 910 450 900 C 435 890 440 910 450 900 Z"/>
+      <path d="M 450 900 L 450 920" stroke="#689E4E" stroke-width="3"/>
+      <!-- Lotus booti 2 -->
+      <path d="M 560 980 C 550 960 570 960 560 980 C 575 970 570 990 560 980 C 545 970 550 990 560 980 Z"/>
+      <path d="M 560 980 L 560 1000" stroke="#689E4E" stroke-width="3"/>
+      <!-- Lotus booti 3 -->
+      <path d="M 480 1150 C 470 1130 490 1130 480 1150 C 495 1140 490 1160 480 1150 C 465 1140 470 1160 480 1150 Z"/>
+      <path d="M 480 1150 L 480 1170" stroke="#689E4E" stroke-width="3"/>
+      <!-- Lotus booti 4 -->
+      <path d="M 580 1280 C 570 1260 590 1260 580 1280 C 595 1270 590 1290 580 1280 C 565 1270 570 1290 580 1280 Z"/>
+      <path d="M 580 1280 L 580 1300" stroke="#689E4E" stroke-width="3"/>
+    </g>
+
+    <!-- Pallu Drape Across Shoulder with Rich Tree of Life & Lotus Embroidery -->
+    <path d="M 460 620 Q 560 850 780 1050 L 850 1650 L 680 1650 Q 530 1100 440 650 Z" fill="#A8D492"/>
+    <!-- Gold Zari Pallu Border -->
+    <path d="M 460 620 Q 560 850 780 1050 L 780 1650 L 720 1650 L 720 1050 Q 520 850 430 630 Z" fill="url(#zariGrad)"/>
+    
+    <!-- Majestic Embroidered Tree of Life & Lotus Pond on Pallu -->
+    <!-- Tree Trunk -->
+    <path d="M 780 1350 Q 770 1250 750 1180 Q 730 1150 710 1120" stroke="#3D5A2E" stroke-width="12" fill="none"/>
+    <path d="M 750 1180 Q 790 1140 820 1120" stroke="#3D5A2E" stroke-width="8" fill="none"/>
+    <!-- Leaves & Floral Blooms -->
+    <circle cx="710" cy="1120" r="16" fill="#78AA62"/>
+    <circle cx="735" cy="1100" r="14" fill="#E88C95"/>
+    <circle cx="820" cy="1120" r="15" fill="#78AA62"/>
+    <!-- Pink Lotus Blossoms at Pond Base -->
+    <ellipse cx="680" cy="1480" rx="35" ry="12" fill="#588544"/> <!-- Lotus leaf -->
+    <ellipse cx="750" cy="1500" rx="40" ry="14" fill="#588544"/>
+    <path d="M 680 1460 C 660 1420 700 1420 680 1460 C 710 1440 700 1480 680 1460 C 650 1440 660 1480 680 1460 Z" fill="#F48C9A"/>
+    <path d="M 750 1480 C 730 1440 770 1440 750 1480 C 780 1460 770 1500 750 1480 C 720 1460 730 1500 750 1480 Z" fill="#F9A8B4"/>
+
+    <!-- Silk Green Latkan / Tassels at Pallu Hem -->
+    <g stroke="#689E4E" stroke-width="5" fill="#88C46E">
+      <line x1="680" y1="1650" x2="680" y2="1710"/>
+      <circle cx="680" cy="1715" r="8"/>
+      <line x1="720" y1="1650" x2="720" y2="1710"/>
+      <circle cx="720" cy="1715" r="8"/>
+      <line x1="760" y1="1650" x2="760" y2="1710"/>
+      <circle cx="760" cy="1715" r="8"/>
+      <line x1="800" y1="1650" x2="800" y2="1710"/>
+      <circle cx="800" cy="1715" r="8"/>
+      <line x1="840" y1="1650" x2="840" y2="1710"/>
+      <circle cx="840" cy="1715" r="8"/>
+    </g>
+  </g>
+
+  <!-- Golden Hour Lighting Overlay -->
+  <rect width="1080" height="1920" fill="url(#sunGlow)"/>
+
+  <!-- High-Fashion Branding Badge -->
+  <g transform="translate(60, 80)">
+    <rect width="280" height="44" rx="22" fill="rgba(8,10,16,0.85)" stroke="rgba(255,255,255,0.15)"/>
+    <circle cx="24" cy="22" r="6" fill="#00FF87"/>
+    <text x="42" y="27" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" letter-spacing="1.5">ACT 01 • ESTATE GATE</text>
+  </g>
+
+  <!-- Fashion Editorial Label -->
+  <g transform="translate(60, 1780)">
+    <text font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" letter-spacing="2">PISTACHIO SILK SAREE REEL</text>
+    <text y="35" font-family="'IBM Plex Mono', monospace" font-size="16" font-weight="500" fill="#FFE680" letter-spacing="1.5">ROYAL HERITAGE EDITORIAL • @rgcreation711</text>
+  </g>
+</svg>

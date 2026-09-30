@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <linearGradient id="brightSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9EB4C4"/>
+      <stop offset="50%" stop-color="#D0DFE8"/>
+      <stop offset="100%" stop-color="#F2F6F9"/>
+    </linearGradient>
+    <linearGradient id="goldZari5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2A0"/>
+      <stop offset="35%" stop-color="#D4AF37"/>
+      <stop offset="75%" stop-color="#9C7510"/>
+      <stop offset="100%" stop-color="#F3CA40"/>
+    </linearGradient>
+    <linearGradient id="warmSun5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,245,210,0.5)"/>
+      <stop offset="100%" stop-color="rgba(255,225,160,0)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky & Heritage Architecture -->
+  <rect width="1080" height="1920" fill="url(#brightSky)"/>
+
+  <!-- Grand Stone Estate Facade Behind Model -->
+  <path d="M 250 450 L 540 250 L 830 450 L 1080 450 L 1080 1200 L 0 1200 L 0 450 Z" fill="#888173" opacity="0.65"/>
+  <!-- Windows & Arched Doors -->
+  <rect x="360" y="520" width="70" height="110" rx="35" fill="#4B453A" opacity="0.8"/>
+  <rect x="650" y="520" width="70" height="110" rx="35" fill="#4B453A" opacity="0.8"/>
+  <rect x="500" y="700" width="80" height="150" rx="40" fill="#3D372E" opacity="0.8"/>
+
+  <!-- Manicured Estate Hedges & Stone Paver Pathway -->
+  <rect x="0" y="1100" width="1080" height="820" fill="#757065"/>
+  <!-- Green Topiary Hedges -->
+  <ellipse cx="120" cy="1150" rx="140" ry="80" fill="#3D5A2E"/>
+  <ellipse cx="960" cy="1150" rx="140" ry="80" fill="#3D5A2E"/>
+
+  <!-- Standing Radiant Model: Beautiful Warm Smile -->
+  <g id="smiling-model">
+    <!-- Radiant Smiling Face & Eyes -->
+    <ellipse cx="540" cy="400" rx="80" ry="98" fill="#E8C3A8"/>
+    <!-- Elegant Hair Coiffure & Low Bun -->
+    <path d="M 440 370 Q 540 290 640 370 Q 610 440 450 430 Z" fill="#201915"/>
+    <ellipse cx="610" cy="410" rx="35" ry="45" fill="#1C1612"/>
+
+    <!-- Radiant Smile & Warm Brown Eyes -->
+    <path d="M 480 390 Q 500 380 520 390" stroke="#482E1E" stroke-width="4.5" fill="none"/>
+    <path d="M 560 390 Q 580 380 600 390" stroke="#482E1E" stroke-width="4.5" fill="none"/>
+    <!-- Warm Smiling Lips with Bright Teeth -->
+    <path d="M 490 450 Q 540 485 590 450 Q 540 460 490 450 Z" fill="#FFFFFF" stroke="#C45A68" stroke-width="3"/>
+    <path d="M 490 450 Q 540 495 590 450" stroke="#C45A68" stroke-width="5" fill="none"/>
+
+    <!-- Gold Necklace with Intricate Center Medallion -->
+    <path d="M 490 490 Q 540 550 590 490" stroke="url(#goldZari5)" stroke-width="4.5" fill="none"/>
+    <circle cx="540" cy="555" r="16" fill="url(#goldZari5)" stroke="#9C7510" stroke-width="3"/>
+
+    <!-- Saree Blouse & Gold Bordered Sleeve -->
+    <path d="M 450 520 L 630 520 L 660 760 L 420 760 Z" fill="#9BC785"/>
+    <rect x="420" y="580" width="45" height="120" fill="url(#goldZari5)" transform="rotate(-15 420 580)"/>
+
+    <!-- Full Length Flowing Saree in Pastel Pistachio -->
+    <path d="M 420 740 C 400 980 380 1350 370 1780 L 800 1780 C 780 1350 720 980 650 740 Z" fill="#B2D89D"/>
+    
+    <!-- Pleat Waves & resham embroidery -->
+    <path d="M 470 820 C 460 1150 450 1480 440 1780" stroke="#7BA865" stroke-width="7" fill="none"/>
+    <path d="M 530 820 C 520 1150 510 1480 500 1780" stroke="#7BA865" stroke-width="7" fill="none"/>
+    <path d="M 590 820 C 580 1150 570 1480 560 1780" stroke="#7BA865" stroke-width="7" fill="none"/>
+
+    <!-- Embroidered Floral Bootis -->
+    <g fill="#E06C75">
+      <circle cx="460" cy="980" r="12"/>
+      <circle cx="560" cy="1060" r="12"/>
+      <circle cx="480" cy="1220" r="12"/>
+      <circle cx="580" cy="1320" r="12"/>
+      <circle cx="460" cy="1480" r="12"/>
+    </g>
+
+    <!-- Broad Gold Zari Border on Pleat Hem -->
+    <rect x="370" y="1710" width="430" height="70" fill="url(#goldZari5)"/>
+
+    <!-- Flowing Pallu with Tree of Life Drape Falling Gracefully Behind -->
+    <path d="M 590 530 Q 720 750 780 1200 L 840 1700 L 740 1700 Q 680 1100 580 600 Z" fill="#A8D492"/>
+    <rect x="740" y="1200" width="40" height="500" fill="url(#goldZari5)"/>
+  </g>
+
+  <!-- Golden Hour Warm Sun Flare -->
+  <rect width="1080" height="1920" fill="url(#warmSun5)"/>
+
+  <!-- High-Fashion Branding Badge -->
+  <g transform="translate(60, 80)">
+    <rect width="320" height="44" rx="22" fill="rgba(8,10,16,0.85)" stroke="rgba(255,255,255,0.15)"/>
+    <circle cx="24" cy="22" r="6" fill="#00FF87"/>
+    <text x="42" y="27" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" letter-spacing="1.5">ACT 05 • RADIANT PORTRAIT</text>
+  </g>
+
+  <!-- Editorial Details -->
+  <g transform="translate(60, 1780)">
+    <text font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" letter-spacing="2">PISTACHIO &amp; GOLD SUTRA</text>
+    <text y="35" font-family="'IBM Plex Mono', monospace" font-size="16" font-weight="500" fill="#FFE680" letter-spacing="1.5">LUXURY LOOKBOOK • @rgcreation711</text>
+  </g>
+</svg>

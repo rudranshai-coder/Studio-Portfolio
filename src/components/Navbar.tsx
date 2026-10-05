@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Menu, X, SlidersHorizontal, ArrowUpRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { gsap, ScrollTrigger } from '../utils/gsapSetup';
-import { SoundToggle } from './SoundToggle';
 
 interface NavbarProps {
   name: string;
@@ -123,9 +122,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         </nav>
 
         {/* Right CTA / Controls */}
-        <div className="hidden md:flex items-center gap-3">
-          <SoundToggle />
-
+        <div className="hidden md:flex items-center gap-4">
           <button
             id="nav-quick-edit-button"
             onClick={onOpenCms}
@@ -148,8 +145,6 @@ export const Navbar: React.FC<NavbarProps> = ({
 
         {/* Mobile Menu Toggle */}
         <div className="flex items-center gap-2 md:hidden">
-          <SoundToggle compact />
-
           <button
             id="nav-mobile-edit-button"
             onClick={onOpenCms}
@@ -190,14 +185,6 @@ export const Navbar: React.FC<NavbarProps> = ({
                   <span className="text-[#FF6A00] text-xs">→</span>
                 </button>
               ))}
-
-              {/* Mobile Ambient Audio Control Row */}
-              <div className="pt-2 pb-2 flex items-center justify-between border-b border-[#151822]">
-                <span className="text-[12px] text-[#7B8092] tracking-wider uppercase font-['IBM_Plex_Mono']">
-                  AMBIENT SOUNDSCAPE
-                </span>
-                <SoundToggle />
-              </div>
 
               <div className="pt-2 flex flex-col gap-3">
                 <button

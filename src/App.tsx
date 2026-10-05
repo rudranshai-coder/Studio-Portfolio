@@ -22,6 +22,7 @@ import { AdminPortalModal } from './components/AdminPortalModal';
 import { CinematicScrollJourney } from './components/CinematicScrollJourney';
 import { SectionDivider } from './components/SectionDivider';
 import { EntranceScreen } from './components/EntranceScreen';
+import { ScrollToTop } from './components/ScrollToTop';
 import { SlidersHorizontal } from 'lucide-react';
 import { useAuth } from './context/AuthContext';
 
@@ -361,6 +362,9 @@ export default function App() {
         <SlidersHorizontal className="w-3.5 h-3.5 text-[#FF6A00]" />
         <span className="hidden sm:inline">Config / URLs</span>
       </button>
+
+      {/* Smooth Global Scroll-To-Top Button with Radial Progress Ring */}
+      <ScrollToTop className="bottom-18 right-5" />
     </div>
   );
 }

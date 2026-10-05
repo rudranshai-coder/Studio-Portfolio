@@ -72,7 +72,7 @@ export interface ProcessStep {
 }
 
 export interface SocialLink {
-  platform: 'Instagram' | 'Facebook' | 'LinkedIn';
+  platform: 'Instagram' | 'Facebook' | 'LinkedIn' | 'GitHub';
   handle: string;
   url: string;
   iconColor: string;

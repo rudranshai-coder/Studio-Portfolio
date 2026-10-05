@@ -981,6 +981,13 @@ export const initialPortfolioData: PortfolioConfig = {
       iconColor: '#1877F2',
       bgBadgeColor: 'rgba(24, 119, 242, 0.15)',
     },
+    {
+      platform: 'GitHub',
+      handle: 'rudranshai-coder',
+      url: 'https://github.com/rudranshai-coder',
+      iconColor: '#F0F6FC',
+      bgBadgeColor: 'rgba(240, 246, 252, 0.15)',
+    },
   ],
 
   contact: {
